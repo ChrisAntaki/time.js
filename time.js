@@ -13,3 +13,7 @@ function Time (callback, options) {
         console.log(value);
     }
 }
+
+if (typeof module !== "undefined" && typeof module.exports !== "undefined") {
+    module.exports = Time;
+}
