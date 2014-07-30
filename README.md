@@ -1,3 +1,5 @@
+### Usage
+
 ```js
 Time(function() {
   var result;
